@@ -1,7 +1,7 @@
 package com.smartherd.globofly.activities
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import com.smartherd.globofly.R
 import com.smartherd.globofly.helpers.SampleData
 import com.smartherd.globofly.models.Destination

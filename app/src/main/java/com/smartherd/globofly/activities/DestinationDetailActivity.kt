@@ -2,7 +2,7 @@ package com.smartherd.globofly.activities
 
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
 import com.smartherd.globofly.R
 import com.smartherd.globofly.helpers.SampleData

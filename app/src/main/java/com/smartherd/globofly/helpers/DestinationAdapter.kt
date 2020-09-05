@@ -1,7 +1,7 @@
 package com.smartherd.globofly.helpers
 
 import android.content.Intent
-import android.support.v7.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,7 +11,7 @@ import com.smartherd.globofly.activities.DestinationDetailActivity
 import com.smartherd.globofly.models.Destination
 import com.smartherd.globofly.R
 
-class DestinationAdapter(private val destinationList: List<Destination>) : RecyclerView.Adapter<DestinationAdapter.ViewHolder>() {
+class DestinationAdapter(private val destinationList: List<Destination>) : androidx.recyclerview.widget.RecyclerView.Adapter<DestinationAdapter.ViewHolder>() {
 
 	override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
 
@@ -37,7 +37,7 @@ class DestinationAdapter(private val destinationList: List<Destination>) : Recyc
 		return destinationList.size
 	}
 
-	class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+	class ViewHolder(itemView: View) : androidx.recyclerview.widget.RecyclerView.ViewHolder(itemView) {
 
 		val txvDestination: TextView = itemView.findViewById(R.id.txv_destination)
 		var destination: Destination? = null
